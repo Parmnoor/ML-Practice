@@ -1,0 +1,22 @@
+artifact_path: /Users/parmnoor/Desktop/CAREER_PRACTICE/ML-Practice/Projects-and-Practice/gym_churn_project/mlruns/1/models/m-8bc3f3b35c2c4a85a724541e4381a751/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.14.5
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.13.0
+model_id: m-8bc3f3b35c2c4a85a724541e4381a751
+model_size_bytes: 226530
+model_uuid: m-8bc3f3b35c2c4a85a724541e4381a751
+prompts: null
+run_id: 92a175dfb39647b2876a7c9502aba922
+utc_time_created: '2026-06-11 15:28:10.307918'
